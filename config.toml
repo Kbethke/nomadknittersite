@@ -1,8 +1,8 @@
-# baseurl = "https://sailadastra.com/"
-baseurl= "https://www.sailadastra.com/"
+
+baseurl= "https://nomadknitter.netlify.com/"
 disablePathToLower = false
 languageCode = "en-us"
-title = "Ad Astra Sailing Adventures"
+title = "Nomad Knitter"
 copyright ="&copy; 2018 Erik Bethke. "
 
 theme = "hugo_theme_beg-master"
