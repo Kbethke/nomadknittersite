@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Website on Million on Mars</title>
+    <link>http://milliononmars.com/tags/website/</link>
+    <description>Recent content in Website on Million on Mars</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Tech Tree Labs, Inc. </copyright>
+    <lastBuildDate>Mon, 07 May 2018 10:36:22 -0500</lastBuildDate>
+    
+	<atom:link href="http://milliononmars.com/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog MarkDown Quicksheet</title>
+      <link>http://milliononmars.com/posts/markdown/</link>
+      <pubDate>Mon, 07 May 2018 10:36:22 -0500</pubDate>
+      
+      <guid>http://milliononmars.com/posts/markdown/</guid>
+      <description>theme = &amp;ldquo;hugo_theme_beg-master&amp;rdquo; theme = &amp;ldquo;Hugo-Octopress-master&amp;rdquo; Bold Bold 2 Bold 3 Bold 4
+This is strike through
+Lists o&amp;rsquo; Stuff Remember to leave a blank line before starting your lists
+Regular Lists  List Item 1 List Item 2 List Item 3  Ordered Lists  Ordered List Item 1 Ordered List Item 2 Ordered List Item 3  Lists with Sub Lists  List Item 1 List Item 2  Ordered List Item 1 Ordered List Item 2 Ordered List Item 3  List Item 3  To Do Lists get new posts showing up determine definitively if I can host on dreamhost or not render an image  Links &amp;amp; Images Image Hint put images in the /static folder</description>
+    </item>
+    
+  </channel>
+</rss>

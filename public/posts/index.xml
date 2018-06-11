@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Million on Mars</title>
+    <link>https://milliononmars.com/posts/</link>
+    <description>Recent content in Posts on Million on Mars</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Tech Tree Labs, Inc. </copyright>
+    <lastBuildDate>Sat, 26 May 2018 10:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://milliononmars.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vacation with Grandpa Neil</title>
+      <link>https://milliononmars.com/posts/vacation_grandpa/</link>
+      <pubDate>Sat, 26 May 2018 10:00:00 +0000</pubDate>
+      
+      <guid>https://milliononmars.com/posts/vacation_grandpa/</guid>
+      <description>&lt;p&gt;The MoM team took 10 days off to vacation with Neil Bethke (Erik&amp;rsquo;s Dad) to explore the Yucatan Peninsula.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

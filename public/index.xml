@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Million on Mars</title>
+    <link>https://milliononmars.com/</link>
+    <description>Recent content on Million on Mars</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Tech Tree Labs, Inc. </copyright>
+    <lastBuildDate>Sat, 26 May 2018 10:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://milliononmars.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vacation with Grandpa Neil</title>
+      <link>https://milliononmars.com/posts/vacation_grandpa/</link>
+      <pubDate>Sat, 26 May 2018 10:00:00 +0000</pubDate>
+      
+      <guid>https://milliononmars.com/posts/vacation_grandpa/</guid>
+      <description>&lt;p&gt;The MoM team took 10 days off to vacation with Neil Bethke (Erik&amp;rsquo;s Dad) to explore the Yucatan Peninsula.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://milliononmars.com/about/faq/</link>
+      <pubDate>Thu, 10 May 2018 10:36:22 -0500</pubDate>
+      
+      <guid>https://milliononmars.com/about/faq/</guid>
+      <description>&lt;p&gt;Your &lt;em&gt;family&lt;/em&gt; is coding this game on a &lt;em&gt;boat!&lt;/em&gt;?&lt;/p&gt;
+
+&lt;p&gt;How does &lt;em&gt;that&lt;/em&gt; work?&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About Million on Mars</title>
+      <link>https://milliononmars.com/about/about/</link>
+      <pubDate>Tue, 08 May 2018 10:36:22 -0500</pubDate>
+      
+      <guid>https://milliononmars.com/about/about/</guid>
+      <description>&lt;p&gt;You are the Executive Directory of Delta Colony, one of several colonies with seed funding from Leon Dusk, the Chairman of ZeeSpace, Inc.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Million on Mars Team</title>
+      <link>https://milliononmars.com/about/team/</link>
+      <pubDate>Tue, 08 May 2018 10:36:22 -0500</pubDate>
+      
+      <guid>https://milliononmars.com/about/team/</guid>
+      <description>Kaiwen Bethke  Iron Chef Cheerleader Travel Guru Admiral all around awesome sauce!  Max Bethke  13 years old Graphics Designer Lead Engineer - Client (UX) Navigator  Max learned python at 11 as well as self learning how to pixel art. He works on the user side of the game and also works on the milliononmars.com website&amp;rsquo;s css and html.
+On the boat he works as the navigator using the navigation console to help plot courses and record logs in the logbook.</description>
+    </item>
+    
+    <item>
+      <title>index</title>
+      <link>https://milliononmars.com/content/</link>
+      <pubDate>Fri, 20 Apr 2018 10:21:05 +0200</pubDate>
+      
+      <guid>https://milliononmars.com/content/</guid>
+      <description>Fancy box is used to display image gallery with this shortcode: A very fancy box, indeed</description>
+    </item>
+    
+  </channel>
+</rss>

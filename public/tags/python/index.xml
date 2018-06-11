@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Million on Mars</title>
+    <link>http://milliononmars.com/tags/python/</link>
+    <description>Recent content in Python on Million on Mars</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Tech Tree Labs, Inc. </copyright>
+    <lastBuildDate>Tue, 15 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://milliononmars.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Post Pycon Follow-up</title>
+      <link>http://milliononmars.com/posts/pycon18-follow-ups/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://milliononmars.com/posts/pycon18-follow-ups/</guid>
+      <description>Security We need 2F across our github, website (and me for the banks) Buy a set of these: Yubico Checkout lastpass  Static Site Learn which farking css file controls what and when Design our site Implement the design Pull the Hugo docs locally Find our static website provider 21 best yCombo static conv Remove our gitbuh static website and replace with a re-direct to million on mars Solve Jupiter notebooks smashing over current python environment Google Site Ownership Collect all my domains  Packaging Work to help the Kivy packaging docs to be cleaner Learn virtual environment documentation  Testing Check out mypy Read pytest&amp;rsquo;s documents PyTest Docs Read and so the examples of Obey the Testing Goat prcheck-py2: prcheck: prcheck-py2 typecheck pydocstyle pyflakes doc8 travis for continuous integratuon chalice repro github.</description>
+    </item>
+    
+    <item>
+      <title>Day 4 - PyCon 2018 Session Notes</title>
+      <link>http://milliononmars.com/posts/pycon18d4/</link>
+      <pubDate>Sun, 13 May 2018 09:36:22 -0500</pubDate>
+      
+      <guid>http://milliononmars.com/posts/pycon18d4/</guid>
+      <description>Effortless Logging: A deep dive into the logging module Mario Corchoro Bloomberg @mariocj89
+If you use a debugger -&amp;gt; you are doing it wrong. Because how will you fix it in production when you cannot use the debugger?
+Split how to what Collaborative approach Great for libraries
+logger logger.info(&amp;ldquo;hello %s&amp;rdquo;, something)
+log record
+emit(record)
+handler format string
+logger = logging.getLogger(&amp;ldquo;parent.child&amp;rdquo;)
+logging.getLogger(name) &amp;lt;&amp;lt; uses the file&amp;rsquo;s name &amp;amp; makes sense logging.</description>
+    </item>
+    
+    <item>
+      <title>Kyle and Max Demoing Million on Mars</title>
+      <link>http://milliononmars.com/posts/kylenmaxdemopycon2018/</link>
+      <pubDate>Sun, 13 May 2018 09:36:22 -0500</pubDate>
+      
+      <guid>http://milliononmars.com/posts/kylenmaxdemopycon2018/</guid>
+      <description>Without any warning or preperation, I had Kyle and Max start showing off their work on Million on Mars to the various folks running booths here at PyCon 2018.
+They did about 20 presentations over the 3 days: Google, Microsoft, Amazon, heroku, JetBrains, and even the creator Python Guido van Rossum all checked out the gameplay.
+By a happy stroke of timing, Max on his own, produced a time-lapsed video of 10 minutes of gameplay and it turned out to be an excellent demo asset.</description>
+    </item>
+    
+    <item>
+      <title>Day 3 - PyCon 2018 Session Notes</title>
+      <link>http://milliononmars.com/posts/pycon181d3/</link>
+      <pubDate>Sat, 12 May 2018 09:36:22 -0500</pubDate>
+      
+      <guid>http://milliononmars.com/posts/pycon181d3/</guid>
+      <description>LED lights  Lady Red mCScope@gmail.com github.com/msscope mcscope/liteup  NeoPixel  3528 5050 SMD LED WS2812D Works good with Arduino microcontrollers Hard to use with Rasberry PI  APA102 (DotStar)  Data and Clock seperate 2 wire SPI Much faster clock 32 mHz vz 800 khz pure python controller  Black 5m 30 IP67
+ 30 IP30 Indoor 60 IP65 Water Resistent 144 IP 67 Immersible &amp;lt;&amp;lt;&amp;lt; cool! RGBW (white) RGBWW (warm white)  Where to buy LEDs?</description>
+    </item>
+    
+    <item>
+      <title>Day 2 - PyCon 2018 Session Notes</title>
+      <link>http://milliononmars.com/posts/pycon181d2/</link>
+      <pubDate>Fri, 11 May 2018 09:36:22 -0500</pubDate>
+      
+      <guid>http://milliononmars.com/posts/pycon181d2/</guid>
+      <description>Behavior-Driven Python  Andrew Knight AutomationPanda.com  Gherkin Language Feature: Cucumber Basket
+Scenario: Given the basket is empty When &amp;ldquo;4&amp;rdquo; cucuembers are added And &amp;ldquo;6&amp;rdquo; cucuembers are added But &amp;ldquo;3&amp;rdquo; cucuembers are removed Then rge baster contains &amp;ldquo;7&amp;rdquo;
+Background: Given the basket contains &amp;ldquo;5&amp;rdquo;
+Scenario: Add Cucuembers When &amp;ldquo;4&amp;rdquo; cucumbers are added to the basket Then the basket contains &amp;ldquo;9&amp;rdquo; cucumbers
+Scenario Outline: Add Cucumbers Given the basket contains &amp;ldquo;&amp;rdquo; cucumbers When &amp;ldquo;&amp;rdquo; cucumbers are added to the basket Then the basket contains &amp;ldquo;&amp;ldquo;</description>
+    </item>
+    
+    <item>
+      <title>Day 1 - PyCon 2018 Session Notes</title>
+      <link>http://milliononmars.com/posts/pycon181d1/</link>
+      <pubDate>Thu, 10 May 2018 09:36:22 -0500</pubDate>
+      
+      <guid>http://milliononmars.com/posts/pycon181d1/</guid>
+      <description>Django - API driven  DJango Project Lots of docs here Great book on TDD for Django Stopped at chapter 5  Google Cloud Services @jonparrott @briandorsey
+Global
+ 99.95% availability $0.026 GB/month  Regional
+ $0.02 GB/month  Long Term Storage - Backups Forever Log
+ $0.01 - 1x to push $0.01 - 1x cost to pull back  Cold Storage
+ $0.007 GB/month $0.05 to pull  Great Tools  Jypiter - cool python journalining notebooks jupyter gsutil timed URLs - option on expiring your links to other users  Google Cloud Products ** NOTE: HAMBURGER Menu is key!</description>
+    </item>
+    
+    <item>
+      <title>Cancun to Clevend for PyCon 2018</title>
+      <link>http://milliononmars.com/posts/enroute/</link>
+      <pubDate>Wed, 09 May 2018 10:00:00 +0000</pubDate>
+      
+      <guid>http://milliononmars.com/posts/enroute/</guid>
+      <description>The happy geek factor is huge right now. Kyle, Max and I are flying to Cleveland, Ohio from Cancun to attend PyCon 2018.
+Max is coding his text-based RPG, and I am learning &amp;amp; building our new HUGO-powered blog. I am having an breakfast IPA, Max a breakfast Coke.
+Yesterday I went through all of the speakers and there are a lot of great talks I am looking forward to attending.</description>
+    </item>
+    
+  </channel>
+</rss>

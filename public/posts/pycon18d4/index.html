@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.40.2" />
+
+
+
+<link rel="canonical" href="http://milliononmars.com/posts/pycon18d4/">
+
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <title>Day 4 - PyCon 2018 Session Notes - Million on Mars</title>
+    
+<meta name="description" content="Effortless Logging: A deep dive into the logging module Mario Corchoro Bloomberg @mariocj89If you use a debugger -&amp;gt; you are doing it wrong. Because how will you fix it in production when you cannot use the debugger?Split how to what Collaborative approach Great for librarieslogger logger.info(&amp;ldquo;hello %s&amp;rdquo;, something)log recordemit(record)handler format stringlogger = logging.getLogger(&amp;ldquo;parent.child&amp;rdquo;)logging.getLogger(name) &amp;lt;&amp;lt; uses the file&amp;rsquo;s name &amp;amp; makes sense logging.">
+
+<meta property="og:title" content="Day 4 - PyCon 2018 Session Notes - Million on Mars">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://milliononmars.com/posts/pycon18d4/">
+<meta property="og:image" content="http://milliononmars.comimages/default.png">
+<meta property="og:site_name" content="Million on Mars">
+<meta property="og:description" content="Effortless Logging: A deep dive into the logging module Mario Corchoro Bloomberg @mariocj89If you use a debugger -&amp;gt; you are doing it wrong. Because how will you fix it in production when you cannot use the debugger?Split how to what Collaborative approach Great for librarieslogger logger.info(&amp;ldquo;hello %s&amp;rdquo;, something)log recordemit(record)handler format stringlogger = logging.getLogger(&amp;ldquo;parent.child&amp;rdquo;)logging.getLogger(name) &amp;lt;&amp;lt; uses the file&amp;rsquo;s name &amp;amp; makes sense logging.">
+<meta property="og:locale" content="ja_JP">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="Million on Mars">
+<meta name="twitter:url" content="http://milliononmars.com/posts/pycon18d4/">
+<meta name="twitter:title" content="Day 4 - PyCon 2018 Session Notes - Million on Mars">
+<meta name="twitter:description" content="Effortless Logging: A deep dive into the logging module Mario Corchoro Bloomberg @mariocj89If you use a debugger -&amp;gt; you are doing it wrong. Because how will you fix it in production when you cannot use the debugger?Split how to what Collaborative approach Great for librarieslogger logger.info(&amp;ldquo;hello %s&amp;rdquo;, something)log recordemit(record)handler format stringlogger = logging.getLogger(&amp;ldquo;parent.child&amp;rdquo;)logging.getLogger(name) &amp;lt;&amp;lt; uses the file&amp;rsquo;s name &amp;amp; makes sense logging.">
+<meta name="twitter:image" content="http://milliononmars.comimages/default.png">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id":"http://milliononmars.com"
+    },
+    "headline": "Day 4 - PyCon 2018 Session Notes - Million on Mars",
+    "image": {
+      "@type": "ImageObject",
+      "url": "http://milliononmars.comimages/default.png",
+      "height": 800,
+      "width": 800
+    },
+    "datePublished": "2018-05-13T09:36:22JST",
+    "dateModified": "2018-05-13T09:36:22JST",
+    "author": {
+      "@type": "Person",
+      "name": "Million on Mars"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Million on Mars",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "http://milliononmars.comimages/logo.png",
+        "width": 600,
+        "height": 60
+      }
+    },
+    "description": "Effortless Logging: A deep dive into the logging module Mario Corchoro Bloomberg @mariocj89
+If you use a debugger -&gt; you are doing it wrong. Because how will you fix it in production when you cannot use the debugger?
+Split how to what Collaborative approach Great for libraries
+logger logger.info(&ldquo;hello %s&rdquo;, something)
+log record
+emit(record)
+handler format string
+logger = logging.getLogger(&ldquo;parent.child&rdquo;)
+logging.getLogger(name) &lt;&lt; uses the file&rsquo;s name &amp; makes sense logging."
+  }
+</script>
+
+
+    <link href="http://milliononmars.comcss/styles.css" rel="stylesheet">
+    
+
+  </head>
+
+  <body>
+    
+    
+    
+
+    <header class="l-header">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://milliononmars.com">Million on Mars</a>
+          </div>
+
+          
+          <div id="navbar" class="collapse navbar-collapse">
+            
+            <ul class="nav navbar-nav navbar-right">
+              
+              
+              <li><a target="_blank" href="/">MoM Home</a></li>
+              
+              
+              
+              <li><a target="_blank" href="/about/about">About</a></li>
+              
+              
+              
+              <li><a target="_blank" href="/about/team">Team</a></li>
+              
+              
+              
+              <li><a target="_blank" href="https://www.google.com/">Google</a></li>
+              
+              
+              
+              <li><a target="_blank" href="/posts">Posts</a></li>
+              
+              
+            </ul>
+            
+          </div>
+          
+
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        
+<div class="row">
+  <div class="col-md-8">
+
+    <nav class="p-crumb">
+      <ol class="breadcrumb">
+        <li><a href="http://milliononmars.com"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        
+        <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="http://milliononmars.composts/" itemprop="url"><span itemprop="title">posts</span></a></li>
+        
+        <li class="active">Day 4 - PyCon 2018 Session Notes</li>
+      </ol>
+    </nav>
+
+    
+
+  </div>
+
+  <div class="col-md-4">
+    
+<aside class="l-sidebar">
+
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">The Martian Times</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="http://milliononmars.com/posts/pycon18-follow-ups/" class="list-group-item">Post Pycon Follow-up</a>
+      
+      <a href="http://milliononmars.com/posts/pycon18d4/" class="list-group-item">Day 4 - PyCon 2018 Session Notes</a>
+      
+      <a href="http://milliononmars.com/posts/kylenmaxdemopycon2018/" class="list-group-item">Kyle and Max Demoing Million on Mars</a>
+      
+      <a href="http://milliononmars.com/posts/pycon181d3/" class="list-group-item">Day 3 - PyCon 2018 Session Notes</a>
+      
+      <a href="http://milliononmars.com/posts/pycon181d2/" class="list-group-item">Day 2 - PyCon 2018 Session Notes</a>
+      
+      <a href="http://milliononmars.com/posts/pycon181d1/" class="list-group-item">Day 1 - PyCon 2018 Session Notes</a>
+      
+      <a href="http://milliononmars.com/posts/enroute/" class="list-group-item">Cancun to Clevend for PyCon 2018</a>
+      
+      <a href="http://milliononmars.com/about/about/" class="list-group-item">About Million on Mars</a>
+      
+      <a href="http://milliononmars.com/posts/momintro/" class="list-group-item">Introducing the Million on Mars Blog</a>
+      
+      <a href="http://milliononmars.com/about/team/" class="list-group-item">Million on Mars Team</a>
+      
+    </div>
+  </section>
+
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">CATEGORY</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="http://milliononmars.comcategories/general" class="list-group-item">general</a>
+      
+    </div>
+  </section>
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">TAG</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="http://milliononmars.comtags/python" class="list-group-item">python</a>
+      
+      <a href="http://milliononmars.comtags/development" class="list-group-item">development</a>
+      
+      <a href="http://milliononmars.comtags/science" class="list-group-item">science</a>
+      
+      <a href="http://milliononmars.comtags/website" class="list-group-item">website</a>
+      
+    </div>
+  </section>
+  
+
+</aside>
+
+
+  </div>
+</div>
+
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="container">
+        <p>&copy; 2018 Tech Tree Labs, Inc. </p>
+        <aside>
+          <p>Powered by <a href="https://gohugo.io/">Hugo</a>.</p>
+          <p><b>Million on Mars</b> theme deried from <a href="https://github.com/dim0627/hugo_theme_beg">Beg</a> designed by <a href="http://yet.unresolved.xyz/">Daisuke Tsuji</a>.</p>
+        </aside>
+      </div>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+

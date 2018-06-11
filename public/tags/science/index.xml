@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Science on Million on Mars</title>
+    <link>http://milliononmars.com/tags/science/</link>
+    <description>Recent content in Science on Million on Mars</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Tech Tree Labs, Inc. </copyright>
+    <lastBuildDate>Tue, 08 May 2018 10:36:22 -0500</lastBuildDate>
+    
+	<atom:link href="http://milliononmars.com/tags/science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Perchlorate: A Hazard and a Resource</title>
+      <link>http://milliononmars.com/posts/perchlorate/</link>
+      <pubDate>Tue, 08 May 2018 10:36:22 -0500</pubDate>
+      
+      <guid>http://milliononmars.com/posts/perchlorate/</guid>
+      <description>ClO4- (Perchlorate) Perchlorate is abundant in the Martian regolith. Is this chemical a hazard for future Martians or is it a resource?
+Here is a great paper that discusses why perchlorate is both a resource and a hazard:
+Perchlorate - A Resource and a Hazard
+ClO4-  1% of the regolith (and several orders of magnitude higher than earth) Disrupts thyroid function and will kill us. Very solable in H2O (hard to contain) Dust fines are an important vector of this hazard to control via water spray-down and other mining-industry refined techniques  Rocket Fuel  Can be metabolized by anerobic microbes to purify and produce O2 100 g of enzyme + 6kg of soil + H2O = 1 hour of O2 // 60 kg a full day</description>
+    </item>
+    
+    <item>
+      <title>Cracking CO2 to produce CO</title>
+      <link>http://milliononmars.com/posts/co2tocoando/</link>
+      <pubDate>Tue, 08 May 2018 10:00:00 +0000</pubDate>
+      
+      <guid>http://milliononmars.com/posts/co2tocoando/</guid>
+      <description> CO2toCOandO
+CO2 -&amp;gt; CO + O While Carbon Monoxide is a orderless, tasteless gas that is highly toxic to humans, it is still an important precursor chemical for many industrial chemical processes
+How to create Carbon Monoxide
+tags: science </description>
+    </item>
+    
+  </channel>
+</rss>

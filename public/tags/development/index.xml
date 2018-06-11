@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on Million on Mars</title>
+    <link>http://milliononmars.com/tags/development/</link>
+    <description>Recent content in Development on Million on Mars</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Tech Tree Labs, Inc. </copyright>
+    <lastBuildDate>Tue, 08 May 2018 10:36:22 -0500</lastBuildDate>
+    
+	<atom:link href="http://milliononmars.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introducing the Million on Mars Blog</title>
+      <link>http://milliononmars.com/posts/momintro/</link>
+      <pubDate>Tue, 08 May 2018 10:36:22 -0500</pubDate>
+      
+      <guid>http://milliononmars.com/posts/momintro/</guid>
+      <description>&amp;ldquo;MoM Screenshot&amp;rdquo;
+May 8th To do list site logo figure out tags figure out sections cleanup top menubar SpaceX quick facts Mars quick facts Earth quick facts Rocket Equation quick facts create a full post create a demo post with all types of markup as an example create new repro in github get new posts showing up determine definitively if I can host on dreamhost or not where are the static files going?</description>
+    </item>
+    
+    <item>
+      <title>Web-based Game Editor Notes</title>
+      <link>http://milliononmars.com/posts/webgameeditornotes/</link>
+      <pubDate>Mon, 07 May 2018 10:00:00 +0000</pubDate>
+      
+      <guid>http://milliononmars.com/posts/webgameeditornotes/</guid>
+      <description>Game Editor / Wiki-like but with vaidation and repuation controls  Use-Case * View, Create, Edit or Delete a Resource, Recipe, Quest You can out aribtrary script into Hugo, so could grab the latest game data and render it: &amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;link/to/chart.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;  Would be great for the player to be able to edit and download the latest version of CSV file for themselvs Need a way to share / find collections of edits from other players Maybe need some sort of reputation to get it into consideration&amp;gt; I want to pick a branch of the game [main] and clone and modify the game design bits as CSV files, then uploadmy changes as candidates Have a queue view of changes by users</description>
+    </item>
+    
+    <item>
+      <title>Feb 24 2018 Thursday&#39;s Delights</title>
+      <link>http://milliononmars.com/posts/feb2418/</link>
+      <pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://milliononmars.com/posts/feb2418/</guid>
+      <description>Saturday Feb 24, 2018  Almost 130 distinct days we have spent developing Million on Mars. (Need to file Trade Mark/URL?) The game is playable in stage 2, and stage 3 is coming online now that Kyle has colonists getting hungry and eating food Max did a great job yesterday creating 12 mini-state icons and having them render in the game I have to remind that Max is very efficient and talented, but he likes being given specific jobs from me, he is self-directed on his own projects.</description>
+    </item>
+    
+  </channel>
+</rss>

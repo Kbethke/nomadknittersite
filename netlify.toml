@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/isso/*"
+  to = "http://35.237.78.217:8181/:splat"
+  status = 200
+  force = true
