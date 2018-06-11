@@ -1,5 +1,5 @@
 
-baseurl= "https://nomadknitter.netlify.com/"
+baseurl= "https://nomadknitter.com/"
 disablePathToLower = false
 languageCode = "en-us"
 title = "Nomad Knitter"
